@@ -1,0 +1,11 @@
+{
+  "name": "com.sroglu.toolbox.input",
+  "version": "1.0.0",
+  "displayName": "Input",
+  "description": "Lightweight reader over Unity's Input System — no InputActions asset needed.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" },
+  "dependencies": {
+    "com.unity.inputsystem": "1.7.0"
+  }
+}

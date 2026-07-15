@@ -31,16 +31,18 @@ https://github.com/sroglu/Toolbox.git?path=/Packages/<package-name>#main
 
 | Tool | What it does | Add (git URL) |
 | --- | --- | --- |
-| Object Pool | Generic object pool + GameObject prefab pool (zero deps) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.objectpool#main` |
-| Collections (PriorityQueue) | Double-ended priority queue (min/max heap), pure C# | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.collections#main` |
-| State Machine | Lightweight FSM: `IState` + `StateMachine` + keyed `StateMachine<TId>` | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.statemachine#main` |
-| Grid | Generic 2D grid: indexing, bounds, 4/8 neighbors, cell↔world | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.grid#main` |
-| MVP | Clean Model-View-Presenter (passive view + presenter) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.mvp#main` |
-| Random Utils | Uniform/weighted pick, shuffle, range, chance (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.random#main` |
-| Event Bus | Type-keyed publish/subscribe hub, re-entrancy safe (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.events#main` |
-| Service Locator | Type-keyed registry of shared service instances (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.services#main` |
-| Asset Registry | Lightweight id→asset catalog + typed lookup/instantiate | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.assets#main` |
-| Spawner | Id-based GameObject spawning with per-id pooling | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.spawner#main` |
+| [Object Pool](Packages/com.sroglu.toolbox.objectpool) | Generic object pool + GameObject prefab pool (zero deps) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.objectpool#main` |
+| [Collections (PriorityQueue)](Packages/com.sroglu.toolbox.collections) | Double-ended priority queue (min/max heap), pure C# | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.collections#main` |
+| [State Machine](Packages/com.sroglu.toolbox.statemachine) | Lightweight FSM: `IState` + `StateMachine` + keyed `StateMachine<TId>` | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.statemachine#main` |
+| [Grid](Packages/com.sroglu.toolbox.grid) | Generic 2D grid: indexing, bounds, 4/8 neighbors, cell↔world | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.grid#main` |
+| [MVP](Packages/com.sroglu.toolbox.mvp) | Clean Model-View-Presenter (passive view + presenter) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.mvp#main` |
+| [Random Utils](Packages/com.sroglu.toolbox.random) | Uniform/weighted pick, shuffle, range, chance (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.random#main` |
+| [Event Bus](Packages/com.sroglu.toolbox.events) | Type-keyed publish/subscribe hub, re-entrancy safe (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.events#main` |
+| [Service Locator](Packages/com.sroglu.toolbox.services) | Type-keyed registry of shared service instances (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.services#main` |
+| [Asset Registry](Packages/com.sroglu.toolbox.assets) | Lightweight id→asset catalog + typed lookup/instantiate | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.assets#main` |
+| [Spawner](Packages/com.sroglu.toolbox.spawner) | Id-based GameObject spawning with per-id pooling | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.spawner#main` |
+| [Screen Manager](Packages/com.sroglu.toolbox.screens) | Screen/page navigation with a back-stack (`ScreenManager` + `IScreen`) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.screens#main` |
+| [Input](Packages/com.sroglu.toolbox.input) | Lightweight reader over Unity's Input System — no `.inputactions` asset | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.input#main` |
 
 ## Adding a new tool
 

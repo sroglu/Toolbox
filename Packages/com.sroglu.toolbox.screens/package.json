@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.screens",
+  "version": "1.0.0",
+  "displayName": "Screen Manager",
+  "description": "Screen/page navigation with a back-stack.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

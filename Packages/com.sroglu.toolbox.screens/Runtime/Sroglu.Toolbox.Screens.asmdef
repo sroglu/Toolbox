@@ -1,0 +1,14 @@
+{
+    "name": "Sroglu.Toolbox.Screens",
+    "rootNamespace": "Sroglu.Toolbox.Screens",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

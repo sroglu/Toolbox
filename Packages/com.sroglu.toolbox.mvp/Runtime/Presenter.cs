@@ -10,7 +10,8 @@ namespace Sroglu.Toolbox.Mvp
     /// <typeparam name="TView">The view interface this presenter drives.</typeparam>
     /// <typeparam name="TModel">The model type this presenter reads and mutates.</typeparam>
     public abstract class Presenter<TView, TModel> : IDisposable
-        where TView : class
+        where TView : IView
+        where TModel : IModel
     {
         /// <summary>The passive view this presenter pushes data to.</summary>
         protected TView View { get; }
