@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.pathfinding",
+  "version": "1.0.0",
+  "displayName": "Path Finding",
+  "description": "Grid A* pathfinding (self-contained, 4/8-neighbor).",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.datastore",
+  "version": "1.0.0",
+  "displayName": "Data Store",
+  "description": "Typed key-value store with JSON save/load.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

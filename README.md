@@ -43,6 +43,8 @@ https://github.com/sroglu/Toolbox.git?path=/Packages/<package-name>#main
 | [Spawner](Packages/com.sroglu.toolbox.spawner) | Id-based GameObject spawning with per-id pooling | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.spawner#main` |
 | [Screen Manager](Packages/com.sroglu.toolbox.screens) | Screen/page navigation with a back-stack (`ScreenManager` + `IScreen`) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.screens#main` |
 | [Input](Packages/com.sroglu.toolbox.input) | Lightweight reader over Unity's Input System — no `.inputactions` asset | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.input#main` |
+| [Path Finding](Packages/com.sroglu.toolbox.pathfinding) | Grid A* pathfinding (self-contained, 4/8-neighbor) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.pathfinding#main` |
+| [Data Store](Packages/com.sroglu.toolbox.datastore) | Typed key-value store with JSON save/load | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.datastore#main` |
 
 ## Adding a new tool
 

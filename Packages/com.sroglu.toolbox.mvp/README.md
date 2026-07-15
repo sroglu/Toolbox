@@ -10,14 +10,46 @@ events. The view only exposes:
 - **set-methods** the presenter calls to display data, and
 - **events** the view raises for user input.
 
-Two types:
+Types:
 
 - **`IView`** — marker interface a concrete view implements.
+- **`IModel`** — marker interface a presenter's model implements.
 - **`Presenter<TView, TModel>`** — base presenter. Construct it with a view and a
   model (both non-null), call `Initialize()` to bind (subscribe to view events +
   push initial state), and `Dispose()` to unbind (leak-safe). Implement `OnBind()`
   and `OnUnbind()` in your subclass. `Initialize()`/`Dispose()` are idempotent and
   `IsBound` reflects the current state.
+
+### Optional: reactive models
+
+By default a plain `IModel` is inert — the presenter mutates it and pushes the
+result to the view itself. If instead the model can change on its own (a timer, a
+network push, another presenter), make it **observable** and let the presenter
+re-render in response:
+
+- **`IObservableModel : IModel`** — adds `event Action Changed`, raised whenever the
+  model's data mutates.
+- **`ObservableModel`** — convenience base implementing `IObservableModel`; call
+  the protected `RaiseChanged()` after mutating state.
+
+The presenter subscribes in `OnBind` and unsubscribes in `OnUnbind`:
+
+```csharp
+protected override void OnBind()
+{
+    Model.Changed += Refresh;   // re-render on any model change
+    Refresh();                  // push initial state
+}
+
+protected override void OnUnbind()
+{
+    Model.Changed -= Refresh;   // leak-safe
+}
+
+private void Refresh() => View.SetCount(Model.Count);
+```
+
+This is opt-in: plain models stay `IModel` and nothing changes for them.
 
 ## Import
 
