@@ -1,0 +1,14 @@
+{
+    "name": "Sroglu.Toolbox.Services",
+    "rootNamespace": "Sroglu.Toolbox.Services",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

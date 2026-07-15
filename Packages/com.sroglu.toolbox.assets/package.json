@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.assets",
+  "version": "1.0.0",
+  "displayName": "Asset Registry",
+  "description": "Lightweight id-to-asset catalog: a ScriptableObject catalog plus a lookup/instantiate registry.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.random",
+  "version": "1.0.0",
+  "displayName": "Random Utils",
+  "description": "Zero-dependency randomization helpers: uniform/weighted pick, shuffle, range, chance.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

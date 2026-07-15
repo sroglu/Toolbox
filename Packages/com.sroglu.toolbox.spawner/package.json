@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.spawner",
+  "version": "1.0.0",
+  "displayName": "Spawner",
+  "description": "Id-based GameObject spawner combining an asset registry with per-id pooling.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

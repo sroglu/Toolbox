@@ -1,0 +1,4 @@
+# Changelog
+
+## [1.0.0] - 2026-07-15
+- Initial release: `EventBus` with type-keyed `Subscribe`, `Unsubscribe`, `Publish`, and `Clear`.

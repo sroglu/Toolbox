@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.services",
+  "version": "1.0.0",
+  "displayName": "Service Locator",
+  "description": "Zero-dependency type-keyed service locator for wiring shared instances.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

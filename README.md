@@ -36,6 +36,11 @@ https://github.com/sroglu/Toolbox.git?path=/Packages/<package-name>#main
 | State Machine | Lightweight FSM: `IState` + `StateMachine` + keyed `StateMachine<TId>` | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.statemachine#main` |
 | Grid | Generic 2D grid: indexing, bounds, 4/8 neighbors, cell↔world | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.grid#main` |
 | MVP | Clean Model-View-Presenter (passive view + presenter) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.mvp#main` |
+| Random Utils | Uniform/weighted pick, shuffle, range, chance (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.random#main` |
+| Event Bus | Type-keyed publish/subscribe hub, re-entrancy safe (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.events#main` |
+| Service Locator | Type-keyed registry of shared service instances (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.services#main` |
+| Asset Registry | Lightweight id→asset catalog + typed lookup/instantiate | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.assets#main` |
+| Spawner | Id-based GameObject spawning with per-id pooling | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.spawner#main` |
 
 ## Adding a new tool
 

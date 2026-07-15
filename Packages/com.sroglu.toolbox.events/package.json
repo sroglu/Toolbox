@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.events",
+  "version": "1.0.0",
+  "displayName": "Event Bus",
+  "description": "Zero-dependency type-keyed publish/subscribe event bus.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}
