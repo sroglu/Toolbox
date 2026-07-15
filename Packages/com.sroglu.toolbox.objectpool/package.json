@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.objectpool",
+  "version": "1.0.0",
+  "displayName": "Object Pool",
+  "description": "Zero-dependency generic object pool and GameObject prefab pool.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

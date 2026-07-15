@@ -1,0 +1,14 @@
+{
+    "name": "Sroglu.Toolbox.ObjectPool",
+    "rootNamespace": "Sroglu.Toolbox.Pooling",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
