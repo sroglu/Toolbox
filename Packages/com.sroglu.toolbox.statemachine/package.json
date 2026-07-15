@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.statemachine",
+  "version": "1.0.0",
+  "displayName": "State Machine",
+  "description": "Lightweight FSM: IState + StateMachine + keyed StateMachine<TId>.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

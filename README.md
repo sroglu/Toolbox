@@ -32,6 +32,9 @@ https://github.com/sroglu/Toolbox.git?path=/Packages/<package-name>#main
 | Tool | What it does | Add (git URL) |
 | --- | --- | --- |
 | Object Pool | Generic object pool + GameObject prefab pool (zero deps) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.objectpool#main` |
+| Collections (PriorityQueue) | Double-ended priority queue (min/max heap), pure C# | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.collections#main` |
+| State Machine | Lightweight FSM: `IState` + `StateMachine` + keyed `StateMachine<TId>` | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.statemachine#main` |
+| Grid | Generic 2D grid: indexing, bounds, 4/8 neighbors, cell↔world | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.grid#main` |
 
 ## Adding a new tool
 

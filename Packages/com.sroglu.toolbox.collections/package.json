@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.collections",
+  "version": "1.0.0",
+  "displayName": "Collections",
+  "description": "Priority queue (min/max heap).",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}
