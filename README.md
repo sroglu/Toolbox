@@ -35,6 +35,7 @@ https://github.com/sroglu/Toolbox.git?path=/Packages/<package-name>#main
 | Collections (PriorityQueue) | Double-ended priority queue (min/max heap), pure C# | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.collections#main` |
 | State Machine | Lightweight FSM: `IState` + `StateMachine` + keyed `StateMachine<TId>` | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.statemachine#main` |
 | Grid | Generic 2D grid: indexing, bounds, 4/8 neighbors, cell↔world | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.grid#main` |
+| MVP | Clean Model-View-Presenter (passive view + presenter) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.mvp#main` |
 
 ## Adding a new tool
 

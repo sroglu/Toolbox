@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.mvp",
+  "version": "1.0.0",
+  "displayName": "MVP",
+  "description": "Clean Model-View-Presenter: passive view (interface), presenter mediates.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}
