@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.window",
+  "version": "1.0.0",
+  "displayName": "Toolbox Window",
+  "description": "Browse and one-click-install the sroglu Toolbox tools.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}

@@ -1,0 +1,16 @@
+[
+  { "id": "com.sroglu.toolbox.objectpool", "name": "Object Pool", "desc": "Generic object pool + GameObject prefab pool (zero deps)", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.objectpool#main" },
+  { "id": "com.sroglu.toolbox.collections", "name": "Collections (PriorityQueue)", "desc": "Double-ended priority queue (min/max heap), pure C#", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.collections#main" },
+  { "id": "com.sroglu.toolbox.statemachine", "name": "State Machine", "desc": "Lightweight FSM: IState + StateMachine + keyed StateMachine<TId>", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.statemachine#main" },
+  { "id": "com.sroglu.toolbox.grid", "name": "Grid", "desc": "Generic 2D grid: indexing, bounds, 4/8 neighbors, cell/world", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.grid#main" },
+  { "id": "com.sroglu.toolbox.mvp", "name": "MVP", "desc": "Clean Model-View-Presenter (passive view + presenter)", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.mvp#main" },
+  { "id": "com.sroglu.toolbox.random", "name": "Random Utils", "desc": "Uniform/weighted pick, shuffle, range, chance (pure C#)", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.random#main" },
+  { "id": "com.sroglu.toolbox.events", "name": "Event Bus", "desc": "Type-keyed publish/subscribe hub, re-entrancy safe (pure C#)", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.events#main" },
+  { "id": "com.sroglu.toolbox.services", "name": "Service Locator", "desc": "Type-keyed registry of shared service instances (pure C#)", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.services#main" },
+  { "id": "com.sroglu.toolbox.assets", "name": "Asset Registry", "desc": "Lightweight id-to-asset catalog + typed lookup/instantiate", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.assets#main" },
+  { "id": "com.sroglu.toolbox.spawner", "name": "Spawner", "desc": "Id-based GameObject spawning with per-id pooling", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.spawner#main" },
+  { "id": "com.sroglu.toolbox.screens", "name": "Screen Manager", "desc": "Screen/page navigation with a back-stack (ScreenManager + IScreen)", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.screens#main" },
+  { "id": "com.sroglu.toolbox.input", "name": "Input", "desc": "Lightweight reader over Unity's Input System — no .inputactions asset", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.input#main" },
+  { "id": "com.sroglu.toolbox.pathfinding", "name": "Path Finding", "desc": "Grid A* pathfinding (self-contained, 4/8-neighbor)", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.pathfinding#main" },
+  { "id": "com.sroglu.toolbox.datastore", "name": "Data Store", "desc": "Typed key-value store with JSON save/load", "url": "https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.datastore#main" }
+]

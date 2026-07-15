@@ -1,0 +1,16 @@
+{
+    "name": "Sroglu.Toolbox.Window.Editor",
+    "rootNamespace": "Sroglu.Toolbox.Window.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

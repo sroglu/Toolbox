@@ -2,6 +2,16 @@
 
 Small, self-contained Unity tools — import only the ones you need via UPM git URL.
 
+## Quick start
+
+Install the **Toolbox Window** package once:
+
+```
+https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.window#main
+```
+
+Then open **Tools → Toolbox** to browse and one-click-install every tool below.
+
 ## How to add a tool
 
 Each tool is an embedded UPM package under `Packages/`. To pull one into another
@@ -45,6 +55,7 @@ https://github.com/sroglu/Toolbox.git?path=/Packages/<package-name>#main
 | [Input](Packages/com.sroglu.toolbox.input) | Lightweight reader over Unity's Input System — no `.inputactions` asset | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.input#main` |
 | [Path Finding](Packages/com.sroglu.toolbox.pathfinding) | Grid A* pathfinding (self-contained, 4/8-neighbor) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.pathfinding#main` |
 | [Data Store](Packages/com.sroglu.toolbox.datastore) | Typed key-value store with JSON save/load | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.datastore#main` |
+| [Toolbox Window](Packages/com.sroglu.toolbox.window) | Editor window to browse + one-click-install every tool | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.window#main` |
 
 ## Adding a new tool
 
