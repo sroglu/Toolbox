@@ -1,0 +1,11 @@
+{
+  "name": "com.sroglu.toolbox.uitoolkit",
+  "version": "1.0.0",
+  "displayName": "UI Tools",
+  "description": "Editor play-mode helpers for uGUI. Hold Ctrl and hover a UI element to select and ping the topmost element under the cursor in the Hierarchy.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" },
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  }
+}

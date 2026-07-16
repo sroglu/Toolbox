@@ -27,6 +27,25 @@ namespace Sroglu.Toolbox.Assets
         }
 
         /// <summary>
+        /// Enumerates every <see cref="GameObject"/> prefab held by the backing
+        /// catalog. Non-prefab assets (sprites, materials, and so on) are skipped.
+        /// The catalog stays the single source of truth — this surfaces its prefab
+        /// entries for callers that resolve a prefab by the components it carries
+        /// rather than by id.
+        /// </summary>
+        public IEnumerable<GameObject> Prefabs
+        {
+            get
+            {
+                foreach (UnityEngine.Object asset in _catalog.Lookup.Values)
+                {
+                    if (asset is GameObject prefab)
+                        yield return prefab;
+                }
+            }
+        }
+
+        /// <summary>
         /// Returns the asset stored under <paramref name="id"/> as type
         /// <typeparamref name="T"/>.
         /// </summary>

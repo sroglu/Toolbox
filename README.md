@@ -50,11 +50,13 @@ https://github.com/sroglu/Toolbox.git?path=/Packages/<package-name>#main
 | [Event Bus](Packages/com.sroglu.toolbox.events) | Type-keyed publish/subscribe hub, re-entrancy safe (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.events#main` |
 | [Service Locator](Packages/com.sroglu.toolbox.services) | Type-keyed registry of shared service instances (pure C#) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.services#main` |
 | [Asset Registry](Packages/com.sroglu.toolbox.assets) | Lightweight id→asset catalog + typed lookup/instantiate | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.assets#main` |
-| [Spawner](Packages/com.sroglu.toolbox.spawner) | Id-based GameObject spawning with per-id pooling | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.spawner#main` |
+| [Spawner](Packages/com.sroglu.toolbox.spawner) | Spawn GameObjects by string id or component type, pooled by prefab so both paths share one pool | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.spawner#main` |
 | [Screen Manager](Packages/com.sroglu.toolbox.screens) | Screen/page navigation with a back-stack (`ScreenManager` + `IScreen`) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.screens#main` |
+| [View Manager](Packages/com.sroglu.toolbox.viewmanager) | Page-view stack + on-demand instance views, with a pluggable instantiator | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.viewmanager#main` |
 | [Input](Packages/com.sroglu.toolbox.input) | Lightweight reader over Unity's Input System — no `.inputactions` asset | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.input#main` |
 | [Path Finding](Packages/com.sroglu.toolbox.pathfinding) | Grid A* pathfinding (self-contained, 4/8-neighbor) | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.pathfinding#main` |
 | [Data Store](Packages/com.sroglu.toolbox.datastore) | Typed key-value store with JSON save/load | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.datastore#main` |
+| [UI Tools](Packages/com.sroglu.toolbox.uitoolkit) | Hold Ctrl + hover in Play mode to select & ping the topmost uGUI element under the cursor in the Hierarchy | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.uitoolkit#main` |
 | [Toolbox Window](Packages/com.sroglu.toolbox.window) | Editor window to browse + one-click-install every tool | `https://github.com/sroglu/Toolbox.git?path=/Packages/com.sroglu.toolbox.window#main` |
 
 ## Adding a new tool

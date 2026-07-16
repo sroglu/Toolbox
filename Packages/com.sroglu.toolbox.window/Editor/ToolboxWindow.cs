@@ -354,11 +354,13 @@ namespace Sroglu.Toolbox.Window.Editor
                 Make("com.sroglu.toolbox.events", "Event Bus", "Type-keyed publish/subscribe hub, re-entrancy safe (pure C#)"),
                 Make("com.sroglu.toolbox.services", "Service Locator", "Type-keyed registry of shared service instances (pure C#)"),
                 Make("com.sroglu.toolbox.assets", "Asset Registry", "Lightweight id-to-asset catalog + typed lookup/instantiate"),
-                Make("com.sroglu.toolbox.spawner", "Spawner", "Id-based GameObject spawning with per-id pooling"),
+                Make("com.sroglu.toolbox.spawner", "Spawner", "Spawn GameObjects by string id or component type, pooled by prefab so both paths share one pool"),
                 Make("com.sroglu.toolbox.screens", "Screen Manager", "Screen/page navigation with a back-stack (ScreenManager + IScreen)"),
+                Make("com.sroglu.toolbox.viewmanager", "View Manager", "Page-view stack + on-demand instance views, with a pluggable instantiator"),
                 Make("com.sroglu.toolbox.input", "Input", "Lightweight reader over Unity's Input System — no .inputactions asset"),
                 Make("com.sroglu.toolbox.pathfinding", "Path Finding", "Grid A* pathfinding (self-contained, 4/8-neighbor)"),
-                Make("com.sroglu.toolbox.datastore", "Data Store", "Typed key-value store with JSON save/load")
+                Make("com.sroglu.toolbox.datastore", "Data Store", "Typed key-value store with JSON save/load"),
+                Make("com.sroglu.toolbox.uitoolkit", "UI Tools", "Hold Ctrl + hover in Play mode to select & ping the topmost uGUI element under the cursor in the Hierarchy")
             };
         }
     }

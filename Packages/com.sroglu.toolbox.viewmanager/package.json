@@ -1,0 +1,8 @@
+{
+  "name": "com.sroglu.toolbox.viewmanager",
+  "version": "1.0.0",
+  "displayName": "View Manager",
+  "description": "Page-view stack + on-demand instance views, with a pluggable instantiator.",
+  "unity": "2021.3",
+  "author": { "name": "sroglu" }
+}
